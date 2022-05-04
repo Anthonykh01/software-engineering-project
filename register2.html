@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Record</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <style type="text/css">
+        .wrapper{
+            width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <form onSubmit="registration.php" method="post">
+        <h3>Category:</h3>
+        <input type="text" name="post_category">
+        <h3>Post title:</h3>
+        <input type="text" name="post_title">
+        <h3>Post tags (a,b,c...):</h3>
+        <input type="text" name="post_tags">
+        <h3>Post (use html):</h3>
+        <textarea rows="20" cols="50" name="post_contents"></textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
